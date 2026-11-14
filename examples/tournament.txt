@@ -1,0 +1,13 @@
+Round-robin tournament | 200 rounds/match | 100 matches/opponent | seed 42
+Noise: 0.000 | Joker cooperation probability: 0.500
+Mean points per round by strategy against each opponent (higher is better).
+
+Strategy\Opponent    always-c mostly-c    joker  copycat  grudger copykitt   AVERAGE
+always-cooperate        2.000   -0.985    0.516    2.000    2.000    2.000     1.255
+mostly-cheat            2.995    0.010    1.499    0.025    0.025    0.040     0.766
+joker                   2.502   -0.481    0.991    0.995   -0.469    1.753     0.882
+copycat                 2.000    0.005    1.000    2.000    2.000    2.000     1.501
+grudger                 2.000    0.005    1.491    2.000    2.000    2.000     1.583
+copykitten              2.000    0.000    0.748    2.000    2.000    2.000     1.458
+
+Exported: examples/tournament.csv
